@@ -13,15 +13,17 @@ I would like this in a container environment, however the time constraint kind o
 # Aufgabe 2
 
 Stack:
-–	Device Agent: Something close to the hardware, Go, C/C++, Rust maybe Python or even Java
-–	Backend Server: Java, Spring Boot
-–	Frontend: React
-–	Auth Proxy: Nginx
-–	Identity Provider: Keycloak
-–	Datenbank: Postgres (jede relationale DB funktioniert hier bestens)
+
+* Device Agent: Something close to the hardware, Go, C/C++, Rust maybe Python or even Java
+* Backend Server: Java, Spring Boot
+* Frontend: React
+* Auth Proxy: Nginx
+* Identity Provider: Keycloak
+* Datenbank: Postgres (jede relationale DB funktioniert hier bestens)
 
 # Aufgabe 3
 
 Mission Statement:
-–	Secure access to our spaceJu resources - on your schedule.
+
+* Secure access to our spaceJu resources - on your schedule.
 
