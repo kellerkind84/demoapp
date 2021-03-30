@@ -1,3 +1,16 @@
 server:
   error:
     include-message: always
+
+spring:
+  datasource:
+    platform: postgres
+    initialization-mode: always
+    url: jdbc:postgresql://localhost:5432/Resources
+    username: kkugler
+    password: ""
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.PostgreSQLDialect

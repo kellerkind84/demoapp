@@ -51,6 +51,7 @@ class DemoApplicationTests {
         ResourceDescription description = ResourceDescription.builder().energy(105).type(Type.SATELLITE).build();
         ResponseEntity<ValidationError> result = template.exchange(uri(), HttpMethod.POST, new HttpEntity<>(description), ValidationError.class);
         assertThat(result.getStatusCode()).isEqualTo(HttpStatus.BAD_REQUEST);
+        assertThat(result.getBody()).isNotNull();
         assertThat(result.getBody().getMessage()).contains("Fehler im Feld");
     }
 
